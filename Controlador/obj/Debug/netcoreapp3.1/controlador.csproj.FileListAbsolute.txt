@@ -1,0 +1,5 @@
+C:\Users\dpaz5\source\repos\Controlador\obj\Debug\netcoreapp3.1\controlador.csproj.AssemblyReference.cache
+C:\Users\dpaz5\source\repos\Controlador\obj\Debug\netcoreapp3.1\controlador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpaz5\source\repos\Controlador\obj\Debug\netcoreapp3.1\controlador.AssemblyInfoInputs.cache
+C:\Users\dpaz5\source\repos\Controlador\obj\Debug\netcoreapp3.1\controlador.AssemblyInfo.cs
+C:\Users\dpaz5\source\repos\Controlador\obj\Debug\netcoreapp3.1\controlador.csproj.CoreCompileInputs.cache

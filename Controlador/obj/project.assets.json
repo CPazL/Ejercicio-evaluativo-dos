@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "modelo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/modelo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/modelo.dll": {}
+        }
+      },
+      "vista/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/vista.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/vista.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "modelo/1.0.0": {
+      "type": "project",
+      "path": "../ClinicaPrivada/modelo.csproj",
+      "msbuildProject": "../ClinicaPrivada/modelo.csproj"
+    },
+    "vista/1.0.0": {
+      "type": "project",
+      "path": "../vista/vista.csproj",
+      "msbuildProject": "../vista/vista.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "modelo >= 1.0.0",
+      "vista >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dpaz5\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dpaz5\\source\\repos\\Controlador\\controlador.csproj",
+      "projectName": "controlador",
+      "projectPath": "C:\\Users\\dpaz5\\source\\repos\\Controlador\\controlador.csproj",
+      "packagesPath": "C:\\Users\\dpaz5\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dpaz5\\source\\repos\\Controlador\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\dpaz5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\dpaz5\\source\\repos\\ClinicaPrivada\\modelo.csproj": {
+              "projectPath": "C:\\Users\\dpaz5\\source\\repos\\ClinicaPrivada\\modelo.csproj"
+            },
+            "C:\\Users\\dpaz5\\source\\repos\\vistaClinicaPrivada\\vista.csproj": {
+              "projectPath": "C:\\Users\\dpaz5\\source\\repos\\vistaClinicaPrivada\\vista.csproj"
+            },
+            "C:\\Users\\dpaz5\\source\\repos\\vista\\vista.csproj": {
+              "projectPath": "C:\\Users\\dpaz5\\source\\repos\\vista\\vista.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
