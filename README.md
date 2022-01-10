@@ -1,2 +1,2 @@
 # Ejercicio-evaluativo-dos
-Esta repo se desarrolla la resolución del segundo ejercicio evaluativo
+En esta repo se desarrolla la resolución del segundo ejercicio evaluativo
